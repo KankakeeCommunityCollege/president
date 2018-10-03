@@ -1,8 +1,8 @@
-# KCC Site Startup Template
+# KCC President's Search
 
 #### Jekyll + Gulp + Sass + Yarn + BrowserSync + ...
 
-Development of the new KCC website based off of design mockups and using open source technologies.
+Development of the new KCC President's Search website based off of design mockups and using open source technologies.
 
 ## Requirements
 	- Jekyll - `$ gem install jekyll bundler`
@@ -13,8 +13,8 @@ Development of the new KCC website based off of design mockups and using open so
 	- Gulp - `$ npm install --global gulp-cli` - mac users may need sudo
 
 ## Installation
-	$ git clone https://github.com/KankakeeCommunityCollege/kcc-startup-template.git <project name>
-	$ cd <project name>
+	$ git clone git@github.com:KankakeeCommunityCollege/president.git
+	$ cd president
 	$ sh install.sh
 
 ## Development
