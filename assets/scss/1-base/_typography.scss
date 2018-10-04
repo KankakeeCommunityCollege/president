@@ -294,11 +294,24 @@ p.general-p {
 
 .typography__white-h2 {
   color: $white;
+  line-height: 2rem;
   font-family: $headingfont-stack;
 }
 
 .typography__span--orange {
   font-family: $headingfont-stack;
   color: $accent-orange;
+  display: inline-block;
+  letter-spacing: .1rem;
+  line-height: .5;
   font-size: 1.8rem;
+}
+
+.typography__span--white {
+  font-family: $headingfont-stack;
+  color: $white;
+  display: inline-block;
+  letter-spacing: .06rem;
+  line-height: 1;
+  font-size: 1.1rem;
 }

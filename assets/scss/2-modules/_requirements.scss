@@ -1,0 +1,23 @@
+// Requirements section styles for Presidential Search site
+// ========================================================
+
+.requirements__card {
+  background-color: $primary-blue;
+  border-color: $grey-5;
+  border-style: solid;
+  border-width: 5px;
+  padding: 15px;
+}
+
+
+.requirements__list {
+  padding-left: 10px;
+  padding-right: 10px;
+  &--item {
+    background: url($img + 'green-check.svg') no-repeat left top;
+    list-style: none;
+    padding-top: 1px;
+    padding-right: 0;
+    padding-left: 30px;
+  }
+}
