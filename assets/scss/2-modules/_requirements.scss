@@ -13,6 +13,7 @@
 .requirements__list {
   padding-left: 10px;
   padding-right: 10px;
+  padding-top: 15px;
   &--item {
     background: url($img + 'green-check.svg') no-repeat left top;
     list-style: none;
@@ -20,4 +21,12 @@
     padding-right: 0;
     padding-left: 30px;
   }
+}
+.section__heading--bg-blue {
+  background-color: $primary-blue;
+  margin-top: 15px;
+  padding-bottom: .5rem;
+  padding-left: .5rem;
+  padding-right: .5rem;
+  padding-top: .5rem;
 }

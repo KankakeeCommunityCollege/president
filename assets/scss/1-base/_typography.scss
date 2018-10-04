@@ -294,8 +294,15 @@ p.general-p {
 
 .typography__white-h2 {
   color: $white;
-  line-height: 2rem;
+  line-height: 1;
   font-family: $headingfont-stack;
+}
+
+.typography__white-h3 {
+  color: $white;
+  line-height: 1;
+  font-family: $headingfont-stack;
+  margin-top: 15px;
 }
 
 .typography__span--orange {
