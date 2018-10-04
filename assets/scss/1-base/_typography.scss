@@ -296,17 +296,20 @@ p.general-p {
   color: $white;
   line-height: 1;
   font-family: $headingfont-stack;
+  font-weight: $headingfont-weight-boldish;
 }
 
 .typography__white-h3 {
   color: $white;
   line-height: 1;
   font-family: $headingfont-stack;
+  font-weight: $headingfont-weight-boldish;
   margin-top: 15px;
 }
 
 .typography__span--orange {
   font-family: $headingfont-stack;
+  font-weight: $headingfont-weight-boldish;
   color: $accent-orange;
   display: inline-block;
   letter-spacing: .1rem;
@@ -316,9 +319,18 @@ p.general-p {
 
 .typography__span--white {
   font-family: $headingfont-stack;
+  font-weight: $headingfont-weight-boldish;
   color: $white;
   display: inline-block;
   letter-spacing: .06rem;
   line-height: 1;
   font-size: 1.1rem;
+}
+
+.typography__red-heading {
+  font-family: $headingfont-stack;
+  font-weight: $headingfont-weight-black;
+  font-size: 2rem;
+  color: $primary-red;
+  letter-spacing: .06rem;
 }
