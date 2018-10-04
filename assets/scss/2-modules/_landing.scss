@@ -10,7 +10,7 @@
   &__background {
     background-image: url($uploads + 'dsc_0444-banner.jpg');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
   }
   &__title-img {
     position: relative;
@@ -19,8 +19,20 @@
   }
   &__description {
     background-color: $white;
+    padding-bottom: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 20px;
     position: relative;
     margin-top: 30%;
+    margin-left: -5px;
+    margin-right: -5px;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .landing__background {
+    background-size: cover;
   }
 }
 

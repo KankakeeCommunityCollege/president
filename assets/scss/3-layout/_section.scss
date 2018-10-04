@@ -1,0 +1,11 @@
+// Section styles for Presidential search
+// ======================================
+
+.section {
+  margin-top: 15px;
+  &__heading--bg {
+    background-color: $primary-red;
+    padding-bottom: .5rem;
+    padding-top: .5rem;
+  }
+}

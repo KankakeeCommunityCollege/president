@@ -291,3 +291,14 @@ p.general-p {
 .typography__newsroom-heading {
   font-family: $secondaryfont-weight-bold;
 }
+
+.typography__white-h2 {
+  color: $white;
+  font-family: $headingfont-stack;
+}
+
+.typography__span--orange {
+  font-family: $headingfont-stack;
+  color: $accent-orange;
+  font-size: 1.8rem;
+}
