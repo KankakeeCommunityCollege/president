@@ -334,3 +334,39 @@ p.general-p {
   color: $primary-red;
   letter-spacing: .06rem;
 }
+
+.typography__span-blue {
+  color: $primary-blue;
+  font-family: $headingfont-stack;
+  font-size: 2rem;
+  font-weight: $headingfont-weight-black;
+}
+
+.typography__span-red-l {
+  color: $primary-red;
+  font-family: $headingfont-stack;
+  font-size: 1.9rem;
+  font-weight: $headingfont-weight-bold;
+}
+
+.typography__span-red-s {
+  color: $primary-red;
+  font-family: $headingfont-stack;
+  font-size: 1.5rem;
+  font-weight: $headingfont-weight-black;
+  letter-spacing: .02rem;
+}
+
+.typography__span-red-bold {
+  color: $primary-red;
+  font-family: $headingfont-stack;
+  font-size: 2rem;
+  font-weight: $headingfont-weight-black;
+}
+
+.typography__red-h4 {
+  color: $primary-red;
+  font-family: $headingfont-stack;
+  font-size: 1.8rem;
+  font-weight: $headingfont-weight-black;
+}
