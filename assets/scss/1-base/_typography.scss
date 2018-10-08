@@ -304,7 +304,8 @@ p.general-p {
   line-height: 1;
   font-family: $headingfont-stack;
   font-weight: $headingfont-weight-boldish;
-  margin-top: 15px;
+  margin-bottom:  30px;
+  margin-top: 5px;
 }
 
 .typography__span--orange {
@@ -315,6 +316,7 @@ p.general-p {
   letter-spacing: .1rem;
   line-height: .5;
   font-size: 1.8rem;
+  vertical-align: text-top;
 }
 
 .typography__span--white {
@@ -369,4 +371,12 @@ p.general-p {
   font-family: $headingfont-stack;
   font-size: 1.8rem;
   font-weight: $headingfont-weight-black;
+}
+
+.typography__blue-s {
+  color: $primary-blue;
+  font-family: $headingfont-stack;
+  font-size: 1.5rem;
+  font-weight: $headingfont-weight-black;
+  letter-spacing: .02rem;
 }
