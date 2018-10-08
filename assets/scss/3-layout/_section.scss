@@ -35,3 +35,26 @@
   padding-bottom: 25px;
   padding-top: 25px;
 }
+
+.section__circle-img {
+  border-color: $primary-blue;
+  border-style: solid;
+  border-width: 3px;
+  filter: drop-shadow(5px 5px 12px $grey-5);
+}
+
+@media screen and (min-width: 845px) {
+  .section__circle-img {
+    position: relative;
+    top: -50px;
+  }
+}
+
+.section__heading--bg-blue {
+  background-color: $primary-blue;
+  margin-top: 15px;
+  padding-bottom: .5rem;
+  padding-left: 4.5rem;
+  padding-right: 4.5rem;
+  padding-top: .5rem;
+}
