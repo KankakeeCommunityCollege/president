@@ -58,3 +58,22 @@
   padding-right: 4.5rem;
   padding-top: .5rem;
 }
+
+.section__img--card {
+  background-color: #f0f0f0;
+  padding: 10px;
+}
+
+@media screen and (min-width: 992px) {
+  .section__img--card {
+    position: relative;
+    top: -170px;
+    left: 15px;
+  }
+}
+
+.section__img-full {
+  min-width: 100%;
+  width: 100%;
+  height: auto;
+}
