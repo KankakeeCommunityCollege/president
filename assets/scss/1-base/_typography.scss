@@ -380,3 +380,10 @@ p.general-p {
   font-weight: $headingfont-weight-black;
   letter-spacing: .02rem;
 }
+
+.typography__yellow-bg--h6 {
+  color: $primary-blue;
+  font-family: $headingfont-stack;
+  font-size: 2.6rem;
+  font-weight: $headingfont-weight-black;
+}
