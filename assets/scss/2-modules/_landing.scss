@@ -14,9 +14,8 @@
     background-attachment: fixed;
   }
   &__title-img {
-    position: relative;
     display: inline-block;
-    top: 40%;
+    padding-top: 75px;
   }
   &__description {
     background-color: $white;
@@ -24,8 +23,7 @@
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 20px;
-    position: relative;
-    margin-top: 30%;
+    margin-top: 20px;
     margin-left: -5px;
     margin-right: -5px;
     border-color: $grey-6;
@@ -43,21 +41,26 @@
 
 @media screen and (min-width: 992px) {
   .landing__title-img {
-    top: 35%;
     width: 40%;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .landing__title-img {
-    top: 35%;
   }
 }
 
 @media screen and (min-width: 1400px) {
   .landing__title-img {
-    top: 40%;
     width: unset;
+    margin-top: 80px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .landing__title-img {
+    width: unset;
+    margin-top: 90px;
   }
 }
 
@@ -71,30 +74,29 @@
   .landing__description {
     padding-left: 100px;
     padding-right: 100px;
-    margin-top: 20%;
   }
 }
 
 @media screen and (min-width: 992px) {
   .landing__description {
-    margin-top: 10%;
+    margin-top: 15px;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .landing__description {
-    margin-top: 10%;
+    margin-top: 25px;
   }
 }
 
 @media screen and (min-width: 1400px) {
   .landing__description {
-    margin-top: 13%;
+    margin-top: 40px;
   }
 }
 
 @media screen and (min-width: 1600px) {
   .landing__description {
-    margin-top: 15%;
+    margin-top: 95px;
   }
 }
