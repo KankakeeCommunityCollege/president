@@ -45,22 +45,16 @@
   }
 }
 
-@media screen and (min-width: 1200px) {
-  .landing__title-img {
-  }
-}
-
 @media screen and (min-width: 1400px) {
   .landing__title-img {
     width: unset;
-    margin-top: 80px;
+    margin-top: 40px;
   }
 }
 
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1800px) {
   .landing__title-img {
-    width: unset;
-    margin-top: 90px;
+    margin-top: 80px;
   }
 }
 
