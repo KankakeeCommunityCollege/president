@@ -414,7 +414,7 @@ p.general-p {
   font-family: $headingfont-stack;
   font-size: 1.2rem;
   font-weight: $headingfont-weight-regular;
-  letter-spacing: .05rem;
+  letter-spacing: .07rem;
 }
 
 .typography__section--img-card--li {
@@ -423,4 +423,30 @@ p.general-p {
   font-size: 1.2rem;
   font-weight: $headingfont-weight-black;
   letter-spacing: .02rem;
+}
+
+.typography__red-heading--description {
+  font-family: $headingfont-stack;
+  font-weight: $headingfont-weight-black;
+  font-size: 2rem;
+  color: $primary-red;
+  letter-spacing: .06rem;
+}
+
+@media screen and (min-width: 768px) {
+  .typography__red-heading--description {
+    font-size: 1.8rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .typography__red-heading--description {
+    font-size: 1.7rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .typography__red-heading--description {
+    font-size: 2rem;
+  }
 }

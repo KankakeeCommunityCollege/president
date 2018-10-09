@@ -11,6 +11,7 @@
   margin-bottom: 0;
 }
 
-.footer-links__link {
-  text-decoration: none;
+.footer-links__link:hover {
+  color: $white;
+  text-decoration-color: $white;
 }
