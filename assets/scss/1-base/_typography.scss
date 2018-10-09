@@ -342,6 +342,7 @@ p.general-p {
   font-family: $headingfont-stack;
   font-size: 2rem;
   font-weight: $headingfont-weight-black;
+  line-height: $infographic-line-height;
 }
 
 .typography__span-red-l {
@@ -349,9 +350,19 @@ p.general-p {
   font-family: $headingfont-stack;
   font-size: 1.9rem;
   font-weight: $headingfont-weight-bold;
+  line-height: $infographic-line-height;
 }
 
 .typography__span-red-s {
+  color: $primary-red;
+  font-family: $headingfont-stack;
+  font-size: 1.5rem;
+  font-weight: $headingfont-weight-black;
+  letter-spacing: .02rem;
+  line-height: $infographic-line-height;
+}
+
+.typography__img-card--span-red {
   color: $primary-red;
   font-family: $headingfont-stack;
   font-size: 1.5rem;
@@ -364,6 +375,7 @@ p.general-p {
   font-family: $headingfont-stack;
   font-size: 2rem;
   font-weight: $headingfont-weight-black;
+  line-height: $infographic-line-height;
 }
 
 .typography__red-h4 {
@@ -394,4 +406,21 @@ p.general-p {
   font-size: 1.2rem;
   font-weight: $headingfont-weight-bold;
   letter-spacing: .03rem
+}
+
+.typography__footer-link--link {
+  color: $white;
+  letter-spacing: .04rem;
+  font-family: $headingfont-stack;
+  font-size: 1.2rem;
+  font-weight: $headingfont-weight-regular;
+  letter-spacing: .05rem;
+}
+
+.typography__section--img-card--li {
+  color: $primary-blue;
+  font-family: $headingfont-stack;
+  font-size: 1.2rem;
+  font-weight: $headingfont-weight-black;
+  letter-spacing: .02rem;
 }

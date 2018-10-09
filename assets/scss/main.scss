@@ -26,6 +26,7 @@
 @import '2-modules/landing';
 @import '2-modules/requirements';
 @import '2-modules/profile';
+@import '2-modules/footer-links';
 
 // Layout items
 // @import "3-layout/...";
@@ -39,3 +40,4 @@
 
 // Internet Exploder fixes
 @import '0-tools/ie-only';
+@import '0-tools/bootstrap-overrides';

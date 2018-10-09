@@ -28,6 +28,7 @@
   border-style: solid;
   border-width: 5px;
   padding: 20px;
+  margin-top: 15px;
 }
 
 .section__yellow-bg {
@@ -44,10 +45,15 @@
 }
 
 @media screen and (min-width: 845px) {
-  .section__circle-img {
+  .section__circle-img--position {
     position: relative;
     top: -50px;
   }
+}
+
+.section__circle-img--position-lower {
+  position: relative;
+  bottom: -15px;
 }
 
 .section__heading--bg-blue {
@@ -61,14 +67,21 @@
 
 .section__img--card {
   background-color: #f0f0f0;
+  border-color: $grey-6;
+  border-style: solid;
+  border-width: 5px;
   padding: 10px;
 }
 
+.section__img-card--wrapper {
+  margin-top: 15px;
+}
+
 @media screen and (min-width: 992px) {
-  .section__img--card {
-    position: relative;
-    top: -170px;
-    left: 15px;
+  .section__img-card--wrapper {
+    margin-bottom: 20px;
+    margin-top: -130px;
+    margin-left: 15px;
   }
 }
 
@@ -76,4 +89,18 @@
   min-width: 100%;
   width: 100%;
   height: auto;
+}
+
+//@media screen and (min-width: 1092px) {
+//  .section__blue-card--margin-top {
+//    margin-top: -100px !important;
+//  }
+//}
+
+.section__margin-top {
+  margin-top: 65px;
+}
+
+.section__img-card--ul {
+  margin-bottom: 0;
 }
