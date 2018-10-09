@@ -11,6 +11,7 @@
     background-image: url($uploads + 'dsc_0444-banner2.jpg');
     background-repeat: no-repeat;
     background-size: contain;
+    background-attachment: fixed;
   }
   &__title-img {
     position: relative;
