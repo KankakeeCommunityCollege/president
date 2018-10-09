@@ -297,6 +297,7 @@ p.general-p {
   line-height: 1;
   font-family: $headingfont-stack;
   font-weight: $headingfont-weight-boldish;
+  margin-bottom: 0;
 }
 
 .typography__white-h3 {
@@ -449,4 +450,12 @@ p.general-p {
   .typography__red-heading--description {
     font-size: 2rem;
   }
+}
+
+.typography__p--no-margin {
+  margin-bottom: 0;
+}
+
+.typography__h--no-margin {
+  margin-bottom: 0;
 }
