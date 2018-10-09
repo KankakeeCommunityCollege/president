@@ -80,7 +80,7 @@
 
 @media screen and (min-width: 992px) {
   .section__img-card--wrapper {
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     margin-top: -190px;
     margin-left: 15px;
   }
@@ -89,12 +89,20 @@
 @media screen and (min-width: 1092px) {
   .section__img-card--wrapper {
     margin-top: -190px;
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .section__img-card--wrapper {
+    margin-top: -130px;
   }
 }
 
 @media screen and (min-width: 1320px) {
   .section__img-card--wrapper {
     margin-top: -140px;
+    margin-bottom: 35px;
   }
 }
 
