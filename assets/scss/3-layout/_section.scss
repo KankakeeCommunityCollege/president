@@ -61,9 +61,16 @@
   background-color: $primary-blue;
   margin-top: 15px;
   padding-bottom: .5rem;
-  padding-left: 4.5rem;
-  padding-right: 4.5rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
   padding-top: .5rem;
+}
+
+@media screen and (min-width: 768px) {
+  .section__heading--bg-blue {
+    padding-left: 4.5rem;
+    padding-right: 4.5rem;
+  }
 }
 
 .section__img--card {
@@ -127,4 +134,8 @@
 
 .section__img-margin-bottom {
   margin-bottom: 15px;
+}
+
+.section__athletics--row--margin {
+  margin-top: 35px;
 }

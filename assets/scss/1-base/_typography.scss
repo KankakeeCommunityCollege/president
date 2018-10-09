@@ -316,6 +316,12 @@ p.general-p {
   margin-top: 5px;
 }
 
+@media screen and (min-width: 768px) {
+  .typography__white-h3 {
+    font-size: 1.75rem;
+  }
+}
+
 .typography__span--orange {
   font-family: $headingfont-stack;
   font-weight: $headingfont-weight-boldish;
