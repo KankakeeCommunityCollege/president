@@ -49,6 +49,12 @@
 
 @media screen and (min-width: 1200px) {
   .landing__title-img {
+    top: 35%;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .landing__title-img {
     top: 40%;
     width: unset;
   }
@@ -70,11 +76,17 @@
 
 @media screen and (min-width: 992px) {
   .landing__description {
-    margin-top: 9%;
+    margin-top: 10%;
   }
 }
 
 @media screen and (min-width: 1200px) {
+  .landing__description {
+    margin-top: 10%;
+  }
+}
+
+@media screen and (min-width: 1300px) {
   .landing__description {
     margin-top: 13%;
   }
