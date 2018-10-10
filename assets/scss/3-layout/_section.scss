@@ -171,3 +171,9 @@
 .section__athletics--row--margin {
   margin-top: 35px;
 }
+
+@media screen and (min-width: 768px) {
+  .section__col--padding-left {
+    padding-left: 15%;
+  }
+}

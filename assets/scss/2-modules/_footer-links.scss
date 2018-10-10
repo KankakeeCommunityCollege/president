@@ -6,11 +6,24 @@
   padding-bottom: 15px;
 }
 
-.footer-links__ul {
+.footer-links__ul-1 {
   list-style-type: none;
   margin-bottom: 0;
   margin-top: 15px;
   padding-inline-start: 0;
+}
+
+.footer-links__ul-2 {
+  list-style-type: none;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-inline-start: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .footer-links__ul-2 {
+    margin-top: 15px;
+  }
 }
 
 .footer-links__link:hover {
