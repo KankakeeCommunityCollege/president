@@ -307,6 +307,12 @@ p.general-p {
   }
 }
 
+@media screen and (min-width: 768px) {
+  .typography__white-h2 {
+    font-size: 2rem;
+  }
+}
+
 .typography__white-h3 {
   color: $white;
   line-height: 1;
