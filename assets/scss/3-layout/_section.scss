@@ -7,10 +7,21 @@
   &__heading--bg {
     background-color: $primary-red;
     margin-bottom: 15px;
-    margin-top: 25px;
     padding-bottom: .5rem;
     padding-top: .5rem;
+
+    &--margin-top {
+      margin-top: 25px;
+    }
   }
+}
+
+.section__heading--bg--margin-top2 {
+  margin-top: 0;
+}
+
+@media screen and (min-width: 768px) {
+  margin-top: 25px;
 }
 
 .section__employee--img {
@@ -34,8 +45,15 @@
 
 .section__yellow-bg {
   background-color: $accent-orange;
+  margin-top: 20px;
   padding-bottom: 25px;
   padding-top: 25px;
+}
+
+@media screen and (min-width: 768px) {
+  .section__yellow-bg {
+    margin-top: 0;
+  }
 }
 
 .section__circle-img {
@@ -54,22 +72,30 @@
 
 .section__circle-img--position-lower {
   position: relative;
-  bottom: -15px;
+  bottom: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .section__circle-img--position-lower {
+    bottom: -15px;
+  }
 }
 
 .section__heading--bg-blue {
   background-color: $primary-blue;
   margin-top: 15px;
-  padding-bottom: .5rem;
+  padding-bottom: .25rem;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
-  padding-top: .5rem;
+  padding-top: .25rem;
 }
 
 @media screen and (min-width: 768px) {
   .section__heading--bg-blue {
+    padding-bottom: .5rem;
     padding-left: 4.5rem;
     padding-right: 4.5rem;
+    padding-top: .5rem;
   }
 }
 
@@ -120,7 +146,13 @@
 }
 
 .section__margin-top {
-  margin-top: 65px;
+  margin-top: 25px;
+}
+
+@media screen and (min-width: 768px) {
+  .section__margin-top {
+    margin-top: 65px;
+  }
 }
 
 .section__img-card--ul {

@@ -296,14 +296,14 @@ p.general-p {
   color: $white;
   line-height: 1;
   font-family: $headingfont-stack;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   font-weight: $headingfont-weight-boldish;
   margin-bottom: 0;
 }
 
 @media screen and (min-width: 360px) {
   .typography__white-h2 {
-    font-size: 1.4rem
+    font-size: 1.5rem
   }
 }
 
@@ -317,6 +317,7 @@ p.general-p {
   color: $white;
   line-height: 1;
   font-family: $headingfont-stack;
+  font-size: 1.4rem;
   font-weight: $headingfont-weight-boldish;
   margin-bottom:  30px;
   margin-top: 5px;
@@ -401,8 +402,14 @@ p.general-p {
 .typography__red-h4 {
   color: $primary-red;
   font-family: $headingfont-stack;
-  font-size: 1.8rem;
+  font-size: 1.35rem;
   font-weight: $headingfont-weight-black;
+}
+
+@media screen and (min-width: 768px) {
+  .typography__red-h4 {
+    font-size: 1.8rem;
+  }
 }
 
 .typography__blue-s {
@@ -416,8 +423,14 @@ p.general-p {
 .typography__yellow-bg--h6 {
   color: $primary-blue;
   font-family: $headingfont-stack;
-  font-size: 2.6rem;
+  font-size: 2rem;
   font-weight: $headingfont-weight-black;
+}
+
+@media screen and (min-width: 768px) {
+  .typography__yellow-bg--h6 {
+    font-size: 2.6rem;
+  }
 }
 
 .typography__red-italics {
