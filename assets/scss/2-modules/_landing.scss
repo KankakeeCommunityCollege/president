@@ -6,7 +6,7 @@
   width: 100%;
   position: relative;
   &__background {
-    background-image: url($uploads + 'dsc_0444-banner2.jpg');
+    background-image: url($uploads + 'dsc_0444-banner_sm.jpg');
     background-repeat: no-repeat;
     background-size: contain;
     background-attachment: fixed;
@@ -30,6 +30,19 @@
     border-width: 1px;
   }
 }
+
+@media screen and (min-width: 488px) {
+  .landing__background {
+    background-image: url($uploads + 'dsc_0444-banner_md.jpg');
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .landing__background {
+    background-image: url($uploads + 'dsc_0444-banner.jpg');
+  }
+}
+
 
 @media screen and (min-width: 768px) {
   .landing {
