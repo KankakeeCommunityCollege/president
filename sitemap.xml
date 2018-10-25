@@ -2,14 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
         <loc>http://news.kcc.edu/</loc>
-        <lastmod>2018-10-16T16:13:46.000Z</lastmod>
+        <lastmod>2018-10-25T18:59:20.000Z</lastmod>
     </url>
     <url>
         <loc>http://news.kcc.edu/search/</loc>
-        <lastmod>2018-10-16T16:13:46.000Z</lastmod>
+        <lastmod>2018-10-25T18:59:20.000Z</lastmod>
     </url>
     <url>
         <loc>http://news.kcc.edu/uploads/position-profile.pdf</loc>
+        <lastmod>2018-10-16T18:02:59.000Z</lastmod>
+    </url>
+    <url>
+        <loc>http://news.kcc.edu/uploads/position-profile2.pdf</loc>
         <lastmod>2018-10-10T14:58:20.000Z</lastmod>
     </url>
     <url>
