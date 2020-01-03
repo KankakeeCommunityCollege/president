@@ -46,3 +46,6 @@ adobe/*
 
 # Yarn error log
 yarn-error.log
+
+# Ignore Jekyll 4's `.jekyll-cache/` dir
+.jekyll-cache/
