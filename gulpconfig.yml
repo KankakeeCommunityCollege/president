@@ -202,7 +202,7 @@ sitemap:
     - "_site/**/*.pdf"
     - "_site/**/**/*.pdf"
   siteUrl:
-    - "http://news.kcc.edu"
+    - "https://president.kcc.edu"
 
 # Gulp task for travis-ci to create sitemap on production builds (`$ gulp --production`).
 travisSitemap:
