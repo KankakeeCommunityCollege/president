@@ -125,6 +125,7 @@ javascript:
     - "!assets/js/test.js" # test js file
     - "assets/js/lazyLoad.js"
     - "assets/js/searchToggle.js"
+    - "assets/js/copyrightDate.js"
 
 # Gulp task for main travis JS compile/uglify of all.min.js.
 travisScript:

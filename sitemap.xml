@@ -2,22 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
         <loc>http://news.kcc.edu/</loc>
-        <lastmod>2018-10-25T18:59:20.000Z</lastmod>
+        <lastmod>2020-01-03T14:51:26.727Z</lastmod>
+    </url>
+    <url>
+        <loc>http://news.kcc.edu/index-backup-1-16-19/</loc>
+        <lastmod>2020-01-03T14:51:26.727Z</lastmod>
     </url>
     <url>
         <loc>http://news.kcc.edu/search/</loc>
-        <lastmod>2018-10-25T18:59:20.000Z</lastmod>
+        <lastmod>2020-01-03T14:51:26.727Z</lastmod>
     </url>
     <url>
         <loc>http://news.kcc.edu/uploads/position-profile.pdf</loc>
-        <lastmod>2018-10-16T18:02:59.000Z</lastmod>
+        <lastmod>2019-07-01T16:37:10.000Z</lastmod>
     </url>
     <url>
         <loc>http://news.kcc.edu/uploads/position-profile2.pdf</loc>
-        <lastmod>2018-10-10T14:58:20.000Z</lastmod>
+        <lastmod>2019-07-01T16:37:10.000Z</lastmod>
     </url>
     <url>
         <loc>http://news.kcc.edu/uploads/president-job-description.pdf</loc>
-        <lastmod>2018-10-16T16:00:18.000Z</lastmod>
+        <lastmod>2019-07-01T16:37:10.000Z</lastmod>
     </url>
 </urlset>
